@@ -18,5 +18,5 @@ This project is using JIRA tool for project management and defect traking follow
 
 
 ## AUTHOR
-Reyes Cuesta, QA Engineer
-[LinkedIn Profile](https://www.linkedin.com/in/reyescuesta)
+Marbelis Hugo, QA Engineer
+[LinkedIn Profile](www.linkedin.com/in/marbelis-h-)
