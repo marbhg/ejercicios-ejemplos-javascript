@@ -8,5 +8,9 @@ let meGustaJavascript = true;
 //Declarar una constante (un valor que nunca va a cambiar) 
 let PI = 3.14;
 
+//Mostrar la variable nombre
+document.write(" Hola " + nombre);
+document.write(" Adios " + nombre);
 
-
+//Mostrar la variable edad
+document.write(" edad " + edad );
