@@ -21,3 +21,7 @@ document.write("dividir los numeros " + numero1 + "y " + numero2 + "es igual a" 
 let multiplicacion = numero1 * numero2;
 
 document.write("multiplico los numeros " + numero1 + "y " + numero2 + "es igual a" + multiplicacion);
+
+//Combino varias operaciones. Calculo la media de los dos numeros y lo guardo en la variable media
+let media = (numero1 + numero2) / 2;
+document.write(" La media de los numeros " + numero1 + numero2 + " es igual a " + media);
