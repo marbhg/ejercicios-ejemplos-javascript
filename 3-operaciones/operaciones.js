@@ -5,7 +5,7 @@ let numero2 = 3;
 //Sumo los dos numeros y lo guardo en la variable suma
 let suma = numero1 + numero2;
 
-documento.write("Sumar los numeros " + numero1 + " y " + numero2 + "es igual a " + suma);
+document.write("Sumar los numeros " + numero1 + " y " + numero2 + "es igual a " + suma);
 
 //Resto los dos numeros y lo guardo en la variable resta
 let resta = numero1 - numero2;
