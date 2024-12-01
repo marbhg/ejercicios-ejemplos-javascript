@@ -1,10 +1,11 @@
 //Crear una funcion
-fuction saludar(){
-  
+function saludar() {
   //Obtenemos el elemento que queremos modificar del HTML
-document.getElement
-
-
-
+  document.getElementById("parrafo").textContent = "Hola Mundo";
 }
 
+function despedir() {
+
+  document.getElementById("parrafo").textContent = "despedir"
+
+}
