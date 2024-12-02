@@ -1,14 +1,14 @@
 //Crear una funcion
-function saludar() {
+function Saludar() {
   //Obtenemos el elemento que queremos modificar del HTML
   document.getElementById("parrafo").textContent = "Hola Mundo"
 }
 
-function despedir() {
+function Despedir() {
   document.getElementById("parrafo").textContent = "Adios"
 }
 
-function cambiarColor() {
+function CambiarColor() {
   //Obtenemos el elemento del que queremos cambiar el color por el id
   document.getElementById("parrafo").style.color = "red"
 }
