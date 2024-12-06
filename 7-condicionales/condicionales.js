@@ -19,11 +19,17 @@ document.getElementById("mensajeedad").textContent = mensaje;
 
  }
 function adivinar(){
+  //Creamos una constante con el texto ganador
   let colorelegido = document.getElementById("colorpremio").value;
+  ///Guardamos el valor selecionado por la variable del color elegido por el usuario
   let colorganador = "lila";
   let mensaje ="";
-
-  if("color elegido === color ganador"){
+//Comprobamos si el color elegido es igual al ganador o no. Pasamos a mayusculas todos los textos para evitar errores en las comparaciones si tienen mayusculas o minuscukas diferentes, 
+  if("color elegido.toUpperCase() === color ganador.toUpperCase()"){
     mensaje = "Ha ganado";
-  }
+  } else { 
+    mensaje = "Ha perdido";
+ }
+document.getElementById("mensajepremio").textContent = mensaje; 
 }
+
