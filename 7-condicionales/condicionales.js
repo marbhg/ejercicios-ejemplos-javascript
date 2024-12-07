@@ -25,7 +25,7 @@ function adivinar(){
   let colorganador = "lila";
   let mensaje ="";
 //Comprobamos si el color elegido es igual al ganador o no. Pasamos a mayusculas todos los textos para evitar errores en las comparaciones si tienen mayusculas o minuscukas diferentes, 
-  if("color elegido.toUpperCase() === color ganador.toUpperCase()"){
+  if("colorelegido.toUpperCase() === colorganador.toUpperCase()"){
     mensaje = "Ha ganado";
   } else { 
     mensaje = "Ha perdido";
