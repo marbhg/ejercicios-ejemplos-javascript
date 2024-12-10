@@ -1,26 +1,23 @@
-
 <!DOCTYPE html>
 <html>
+
 <body>
 
-<h1>Variables</h1>
+  <h1>Registro Examen ISTQB</h1>
 
-<p>Registro Examen ISTQB</p>
 
-<script src="studentregistration.js"></script>
+  <script src="studentregistration.js"></script>
 
-<form id="formularioestudiante">
-  <label>Nombre</label>
-  <input type="text" id="nombre" required max="30">
-  <label>Apellido</label>
-  <input type="text" id="apeliido">
-
-  <button type=" button" onclick="mostrarDatosdelFormulario()">ENVIAR</button>
-  <button type=" button" onclick="cambiarColor()">COLOR</button>
-
-</form>
-<p id="datosformulario"></p>
+  <form id="formularioestudiante">
+    <label>Nombre</label>
+    <input type="text" id="nombre" required min="3" max="30">
+    <label>Apellido</label>
+    <input type="text" id="apellido" required min="3" required max="30">
+    <button type=" button" onclick="mostrarDatosdelFormulario()">ENVIAR</button>
+  </form>
+  <p id="BIENVENIDO"></p>
 
 
 </body>
+
 </html>
